@@ -74,7 +74,7 @@ const UI_TEXT = {
     ],
     stats: {
         heading: "Quantitative Data",
-        subtitle: "Analyzing trends and findings based on Mafindo's annual hoax reports (2018-2023).",
+        subtitle: "Analyzing trends and findings about hoax and its medias.",
         chart1: {
             title: "Identified Hoaxes in Indonesia",
             totalLabel: "Total Hoax Articles",
