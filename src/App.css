@@ -5,6 +5,27 @@
   text-align: center;
 }
 
+/* Width of the entire scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333333; /* Dark Grey/Black */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555555; /* Medium Grey */
+  border-radius: 10px;       /* Rounded corners */
+  border: 2px solid #333333; /* Adds space around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777777; /* Lighter Grey on hover */
+}
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
